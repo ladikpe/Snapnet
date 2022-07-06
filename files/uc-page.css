@@ -1,0 +1,118 @@
+	.container {
+		float: none;
+		margin: 0;
+		display: block;
+		width: auto;
+		box-sizing: border-box;
+		overflow: visible !important;
+	}
+
+	.container.header .flex-box {
+		width: 1336px;
+		height: 70px;
+		margin: 2px auto;
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+
+	}
+
+	#mid {
+		position: absolute;
+		width: 958px;
+		height: 48px;
+		left: 133px;
+		top: 188px;
+
+		/* Title 1 */
+
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 44px;
+		line-height: 48px;
+		/* identical to box height, or 109% */
+
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.506496px;
+		border-bottom-style: solid;
+		border-color: #A7A7A7;
+
+		/* Register/$indigo-darken-20 */
+
+		color: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #4438B6;
+	}
+
+	#message {
+		position: absolute;
+		width: 874px;
+		height: 36px;
+		left: 243px;
+		top: 326px;
+
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 25px;
+		line-height: 36px;
+		/* identical to box height, or 129% */
+
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.8px;
+
+		color: #000000;
+	}
+
+	#bottom {
+		position: absolute;
+		width: 411px;
+		height: 28px;
+		left: 133px;
+		top: 462px;
+
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 28px;
+		/* identical to box height, or 140% */
+
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.4px;
+
+		color: #000000;
+
+	}
+
+	#warningIcon {
+
+		width: 89.76px;
+		height: 80px;
+
+	}
+
+
+	#logo {
+		width: 180px;
+		height: 30px;
+		text-align: left;
+		margin: 8px 0px 3px 0px;
+	}
+
+	.assistance {
+		position: absolute;
+		width: 200px;
+		height: 40px;
+		left: 1100px;
+		top: 24px;
+
+		font-family: Open Sans;
+		font-style: normal;
+		text-align: center;
+		font-size: 14px;
+		line-height: 20px;
+
+	}
